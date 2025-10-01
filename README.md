@@ -61,3 +61,87 @@
   <script src="script.js"></script>
 </body>
 </html>
+:root{
+  --bg:#0f1724;
+  --card:#0b1220;
+  --muted:#bfc8d9;
+  --accent:#6ee7b7;
+  --glass: rgba(255,255,255,0.03);
+  --radius:12px;
+  --maxwidth:900px;
+  font-family: Inter, system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial;
+}
+
+*{box-sizing:border-box}
+html,body{height:100%;}
+body{
+  margin:0;
+  background: linear-gradient(180deg,#061021 0%, #0a1220 100%);
+  color:var(--muted);
+  -webkit-font-smoothing:antialiased;
+  -moz-osx-font-smoothing:grayscale;
+  line-height:1.6;
+  padding-bottom:40px;
+}
+
+.container{
+  width:calc(100% - 40px);
+  max-width:var(--maxwidth);
+  margin:0 auto;
+}
+
+.site-header{
+  padding:32px 0;
+  text-align:center;
+}
+.site-header h1{
+  margin:0;
+  font-size:1.8rem;
+  color: white;
+}
+.tagline{margin:8px 0 16px; color: #9fb0c6}
+
+.nav a{
+  margin:0 8px;
+  text-decoration:none;
+  color:var(--accent);
+  font-weight:600;
+}
+
+.card{
+  background:var(--card);
+  border-radius:var(--radius);
+  padding:18px;
+  margin:18px 0;
+  box-shadow: 0 6px 20px rgba(2,6,23,0.6);
+  border:1px solid rgba(255,255,255,0.03);
+}
+
+h2{color:#e6eef8; margin-top:0}
+ul{padding-left:1.1rem}
+
+.btn{
+  display:inline-block;
+  padding:10px 14px;
+  border-radius:10px;
+  border:none;
+  background:linear-gradient(90deg,#3dd6a5,#1aa18a);
+  color:#02221a;
+  font-weight:700;
+  cursor:pointer;
+  margin-top:10px;
+}
+
+.site-footer{
+  margin-top:28px;
+  text-align:center;
+  color:#89a0b8;
+  font-size:0.9rem;
+}
+
+/* Responsive */
+@media (min-width:820px){
+  .site-header{padding:44px 0}
+  .site-header h1{font-size:2.4rem}
+}
+
