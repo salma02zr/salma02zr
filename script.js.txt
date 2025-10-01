@@ -1,0 +1,12 @@
+// Small interactive touches
+document.getElementById('add-sample').addEventListener('click', () => {
+  const list = document.getElementById('project-list');
+  const li = document.createElement('li');
+  const id = Date.now();
+  li.innerHTML = `<a href="#" id="p${id}">Sample Project ${list.children.length + 1} — demo</a>`;
+  list.appendChild(li);
+  alert('Sample project added. Edit the index.html to link to your real project.');
+});
+
+// Simple friendly message in console for visitors who check devtools
+console.log('%cHi there! 👋\nI am Salma — hardworking, curious, and into technology. Nice to see you here!', 'color:#6ee7b7; font-weight:700;');

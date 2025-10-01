@@ -1,0 +1,61 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Salma — Tech Enthusiast</title>
+  <link rel="stylesheet" href="styles.css">
+  <meta name="description" content="Hi there, I'm Salma — a hardworking tech enthusiast. Portfolio and contact.">
+</head>
+<body>
+  <header class="site-header">
+    <div class="container">
+      <h1>Hi there, I'm Salma 👋</h1>
+      <p class="tagline">A hardworking person and passionate technophile. Always learning, building, and collaborating.</p>
+      <nav class="nav">
+        <a href="#about">About</a>
+        <a href="#projects">Projects</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="container">
+    <section id="about" class="card">
+      <h2>About</h2>
+      <p>
+        A highly hardworking and dedicated person who loves technology.
+        Passionate about learning, experimenting, and finding creative solutions to problems.
+      </p>
+      <ul>
+        <li><strong>Interests:</strong> technology, innovation, continuous learning</li>
+        <li><strong>Philosophy:</strong> every day is a new opportunity to grow and improve</li>
+        <li><strong>Goal:</strong> add value, share knowledge, and keep evolving</li>
+      </ul>
+    </section>
+
+    <section id="projects" class="card">
+      <h2>Projects</h2>
+      <p>Examples of projects you can list or link here:</p>
+      <ul id="project-list">
+        <li><a href="#">Project One — Short description</a></li>
+        <li><a href="#">Project Two — Short description</a></li>
+      </ul>
+      <button id="add-sample" class="btn">Add sample project</button>
+    </section>
+
+    <section id="contact" class="card">
+      <h2>Contact</h2>
+      <p>If you'd like to collaborate or say hi, reach me at <em>your-email@example.com</em> (replace with real email) or connect on <a href="https://github.com/your-username" target="_blank" rel="noopener">GitHub</a>.</p>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <p>Made with ❤️ by Salma • <small>Repository template</small></p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
